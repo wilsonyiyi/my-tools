@@ -1,12 +1,13 @@
 import { defineConfig } from "umi";
 
 export default defineConfig({
-  base: '/my-tools/',
+  base: '/my-tools',
+  publicPath: '/my-tools/',
   outputPath: "docs",
   hash: true,
   routes: [
-    { path: "/", redirect: 'parse-cookie' },
-    { path: "/parse-cookie", component: "parse-cookie" },
+    { path: "/", redirect: 'cookie' },
+    { path: "/cookie", component: "parse-cookie" },
   ],
   npmClient: 'npm',
 });
