@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 
-import { renderClient } from '/Users/wilson/playgroud/my-tools/node_modules/.pnpm/@umijs+renderer-react@4.1.0_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
+import { renderClient } from '/Users/wilson/playgroud/my-tools/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';
@@ -33,7 +33,7 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/';
+  const basename = contextOpts.basename || '/my-tools/';
   const historyType = contextOpts.historyType || 'browser';
 
   const history = createHistory({

@@ -27,7 +27,7 @@
         "src/.umi/*"
       ],
       "umi": [
-        "/Users/wilson/playgroud/my-tools/node_modules/.pnpm/umi@4.1.0_zzmsde6khorpdckrf6giz4vrlm/node_modules/umi"
+        "/Users/wilson/playgroud/my-tools/node_modules/umi"
       ],
       "umi/typings": [
         "src/.umi/typings"

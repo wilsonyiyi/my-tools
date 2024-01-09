@@ -7,5 +7,5 @@ export default defineConfig({
     { path: "/", redirect: 'parse-cookie' },
     { path: "/parse-cookie", component: "parse-cookie" },
   ],
-  npmClient: 'pnpm',
+  npmClient: 'npm',
 });
