@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/","redirect":"parse-cookie","parentId":"@@/global-layout","id":"1"},"2":{"path":"/parse-cookie","parentId":"@@/global-layout","id":"2"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
+  const routes = {"1":{"path":"/","redirect":"cookie","parentId":"@@/global-layout","id":"1"},"2":{"path":"/cookie","parentId":"@@/global-layout","id":"2"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
   return {
     routes,
     routeComponents: {

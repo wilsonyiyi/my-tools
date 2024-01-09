@@ -33,8 +33,8 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/my-tools/';
-  const historyType = contextOpts.historyType || 'browser';
+  const basename = contextOpts.basename || '/my-tools';
+  const historyType = contextOpts.historyType || 'hash';
 
   const history = createHistory({
     type: historyType,
